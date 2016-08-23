@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CMD_FILE	v850.c	33;"	d	file:
+CMD_MAX_LEN	v850.c	122;"	d	file:
+V850_DATA	v850.c	31;"	d	file:
+V850_DEV	v850.c	29;"	d	file:
+V850_IOR_DATA_DUMP	v850.c	19;"	d	file:
+V850_IOR_MCU_DUMP	v850.c	22;"	d	file:
+V850_IOR_RX_TIMEOUT	v850.c	14;"	d	file:
+V850_IOR_TX_GAP	v850.c	13;"	d	file:
+V850_IOR_TX_RETRY	v850.c	12;"	d	file:
+V850_IOW_DATA_DUMP	v850.c	20;"	d	file:
+V850_IOW_MCU_DUMP	v850.c	23;"	d	file:
+V850_IOW_RX_TIMEOUT	v850.c	17;"	d	file:
+V850_IOW_TX_GAP	v850.c	16;"	d	file:
+V850_IOW_TX_RETRY	v850.c	15;"	d	file:
+V850_IO_MAGIC	v850.c	11;"	d	file:
+V850_IO_MAX_NR	v850.c	25;"	d	file:
+V850_RECEIVE	v850.c	35;"	d	file:
+V850_SET	v850.c	30;"	d	file:
+checksum	v850.c	/^static unsigned char checksum(unsigned char *data, unsigned int len)$/;"	f	file:
+cmd_bin	v850.c	/^static unsigned char cmd_bin[CMD_MAX_LEN];$/;"	v	file:
+cmd_str	v850.c	/^static char cmd_str[CMD_MAX_LEN];$/;"	v	file:
+data_dump	v850.c	/^static void data_dump(unsigned char *data, int len)$/;"	f	file:
+delspace	v850.c	/^static int delspace(char *p)$/;"	f	file:
+fd_v850	v850.c	/^static int fd_v850 = -1;$/;"	v	file:
+fp_cmd	v850.c	/^static FILE *fp_cmd = NULL;$/;"	v	file:
+help	bsp_upgrade.sh	/^function help(){$/;"	f
+hex2byte	v850.c	/^static unsigned char hex2byte(char hex_ch)$/;"	f	file:
+hex2str	v850.c	/^static void hex2str(char *dest, unsigned char *src, int len)$/;"	f	file:
+hexstr2bin	v850.c	/^static int hexstr2bin(char *hex, unsigned char *bin)$/;"	f	file:
+main	v850.c	/^int main(int argc, char *argv[])$/;"	f
+rx	v850.c	/^unsigned char rx[320];$/;"	v
+usage	v850.c	/^static inline void usage(char *name)$/;"	f	file:
+v850_options	v850.c	121;"	d	file:
+v850_receive	v850.c	/^static void *v850_receive(void *data)$/;"	f	file:
